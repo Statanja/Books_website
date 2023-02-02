@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.MoreDeatils{
+    text-align: start;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding-left: 4px;
+    margin-top: 20px;
+    font-size: 16px;
+    opacity: 0;
+    
+}
+
+.Deatails{
+    position: absolute;
+    background-color: aliceblue;
+    color: black;
+    margin-top: -80px;
+    border-radius: 15px;
+    box-shadow: 10 10 10 0.5;
+    opacity: 0.6;
+}
+
+.Deatails:hover {
+    opacity: 1;
+}
+
+.MoreDeatils:hover{
+    opacity: 0.6;
+}
